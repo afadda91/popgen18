@@ -1,53 +1,42 @@
 # Exercise 1: Basic association testing (single SNP analysis)
 
-In this exercise we will go through a couple of simple tests for association.
-
-We will use the statistical software R and look at (imaginary) data from
+In this exercise we will go through a couple of simple tests for association. We will use the statistical software R and look at (imaginary) data from
 1237 cases and 4991 controls at two SNP loci.
 
-
-First open R or Rstudio (either on Ricco or on your own laptop)
-
-Create an appropriate folder in an appropriate place for this exercise
-
-Set the workingdirectory in R to that folder.
-
-Save the file 'basic_association_testing_practical.R' to that folder and open it (in Rstudio or with an editor).
-
-This will allow you to easily add code to the file or run code in R as you solve the exercises below.
+Open R by typing R in your terminal window on the server (you may also open R or Rstudio on your own laptop if you prefer).
 
 ## Exercise 1A: the genotype distribution test
 
-Start by opening R by typing R in your terminal window on the server.
+Test if disease is associated with genotype of the first SNP is by running the code below in R.
 
-We want to test if the disease is associated with the SNPs.
-
-
-Test if disease is associated with genotype of the first SNP is by running the following code in R:
-
-# Input the SNP1 count data into a matrix
+Input the SNP1 count data into a matrix
+```
 countsSNP1<-matrix(c(423, 1955, 568, 2295, 246, 741), nrow=2)
-
-# Print the matrix (so you can see it)
+```
+Print the matrix (so you can see it)
+```
 print(countsSNP1) 
-
-# Perform the test on the matrix
+```
+Perform a chi-square test on the full count matrix
+```
 chisq.test(countsSNP1)
-
-# Note the p-value. 
-# Does the test suggest that the SNP is associated with the disease (you can use a p-value threshold of 0.05 when answering this question)? 
-# Plot the proportions of cases in each genotype category in this SNP:
+```
+Note the p-value. 
+Does the test suggest that the SNP is associated with the disease (you can use a p-value threshold of 0.05 when answering this question)? 
+Plot the proportions of cases in each genotype category in this SNP:
+```
 barplot(countsSNP1[1,]/(countsSNP1[1,]+countsSNP1[2,]), 
 				xlab="Genotypes", ylab="Proportion of cases", 
 				names=c("AA","Aa","aa"), las=1, ylim=c(0,0.25))
+```
+Does is look like the SNP is associated with the disease? 
+Is the p-value consistent with the plot? 
 
-# Does is look like the SNP is associated with the disease? 
-# Is p-value consistent with the plot? 
-
-# Answer the same questions for SNP 2:
-# Input the SNP2 count data into a matrix
+Input the SNP2 count data into a matrix
+```
 countsSNP2<-matrix(c(1003,4043,222,899,12,49),nrow=2)
-# Reuse the R code used on SNP1 above (but countsSNP2 instead).
+```
+Then answer the same questions for SNP 2, reuse the R code used on SNP1 above (but with "countsSNP2" instead).
 
 
 # ---
