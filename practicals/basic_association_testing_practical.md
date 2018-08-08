@@ -51,7 +51,7 @@ To perform an allelic test on SNP1 in R first generate the allelic count matrix
 allelecountsSNP1<-cbind(2*countsSNP1[,1]+countsSNP1[,2],
 												countsSNP1[,2]+2*countsSNP1[,3])
 ```
-Print them (so you can see it)
+Print it and check that it makes sense
 ```
 print(allelecountsSNP1)
 ```
