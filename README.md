@@ -1,4 +1,4 @@
-# popgen18
+# Popgen18
 
 PhD course in analysis of genotyping and next-generation sequencing data in medical and population genetics 2018
 
@@ -14,3 +14,7 @@ Slides can be found [here](https://github.com/lineskotte/popgen18/tree/master/sl
 
 Practicals can be found [here](https://github.com/lineskotte/popgen18/tree/master/practicals)
 
+
+## Credits
+
+This material has been developed based on material by [Ida Moltke](https://idamoltke.wordpress.com) and [Anders Albrechtsen](http://popgen.dk/albrecht/web/WelcomePage.html), 

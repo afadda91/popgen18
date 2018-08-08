@@ -119,6 +119,7 @@ Does this test lead to the same conclusion as you reached in exercise 1A?
 ## Exercise 1E: Extra questions if you have time
 
 How would you perform a test for association that assumes a recessive inheritance model in this logistic regression framework for SNP1? 
+
 And how would you do it using a simple chi-squared test? Do the results of these tests suggest there is an association?
 
 ## Exercise 1F: effect size (OR)

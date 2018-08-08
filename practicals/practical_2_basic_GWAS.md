@@ -4,7 +4,7 @@ This exercise is about Genome-Wide Association Studies (GWAS): how to perform on
 
 It will be conducted from the command line using the program PLINK2. 
 
-For a detailed description of this program click here (original program) and here (version 2 of the program).
+For a detailed description of this program click [here (original program)](http://zzz.bwh.harvard.edu/plink/) and [here (version 2 of the program)](https://www.cog-genomics.org/plink/1.9/).
 
 The exercise will be carried out at the linux server.
 
@@ -28,9 +28,7 @@ List the content of the folder to see what files appeared:
 ```
 ls
 ```
-Your folder gwasEx should now contain a subfolder called data.
- 
-The folder "data" will contain the all files you will use in this exercise.
+Your folder gwasEx should now contain a subfolder called data, containing the all files you will use in this exercise.
 
 Some of the files are data files, but note that the folder also contain a file called "plink.plot.R"", which contain R code for plotting your results.
 
