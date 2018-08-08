@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motivation}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Plan for today}{6}{0}{1}
+\beamer@sectionintoc {2}{Single SNP tests}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{A range of tests}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{Limitations}{37}{0}{2}
+\beamer@subsectionintoc {2}{3}{Effect sizes}{44}{0}{2}
+\beamer@subsectionintoc {2}{4}{Design}{50}{0}{2}
+\beamer@sectionintoc {3}{Quantitative traits}{57}{0}{3}
+\beamer@sectionintoc {4}{Genome-Wide Association Studies (GWASs)}{63}{0}{4}
+\beamer@subsectionintoc {4}{1}{Introduction to GWAS}{64}{0}{4}
+\beamer@subsectionintoc {4}{2}{How to perform a GWAS}{71}{0}{4}
+\beamer@subsectionintoc {4}{3}{Assessing results}{74}{0}{4}
+\beamer@subsectionintoc {4}{4}{Lots and lots of QC}{81}{0}{4}
+\beamer@subsectionintoc {4}{5}{GWAS perspectives (if time allows)}{90}{0}{4}

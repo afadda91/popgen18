@@ -1,0 +1,11 @@
+\frametitle{Other important limitations}
+  \small
+  % \vspace{-2.2cm}
+ One also has to be aware of the underlying assumptions:
+ \begin{itemize}%\setlength{\itemindent}{-1.25em}
+
+%    \item<1-> In the allelic test there is an assumption of HWE in the population\\\vspace{0.3cm}\includegraphics[scale=.35]{hwe.png}
+    \item<1-> In all the tests there is an assumption that the individuals are independent (unrelated) and from a homogenous (unstructured) population
+    \item<2->  If these assumptions are violated you risk getting false positives!
+\item<3-> Hence Quality Control (QC) and appropriate modelling is crucial!
+   \end{itemize}
